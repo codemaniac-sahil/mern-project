@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.navbar{
+  background-color:#242424;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  color: white;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.navbar ul{
+  list-style: none;
+  color: white;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;  
+}
+.navbar-ul{
+  display: flex;
+  gap: 1em;
+  margin-right: 10px;
+}
+.navbar-right{
+  display: flex;
+  gap: 1em;
+  margin-right: 10px;
+}
+.signup-header,.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.signup-form,.login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.signup-form input,.login-form input,.addproduct-form input{
+  padding: 10px 20px;
+  width: 100%;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+}
+.signup-form button,.login-form button,.addproduct-form button{
+  padding: 10px 20px;
+  border: 0;
+  background-color: lightblue;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login{
+  margin-top: 100px;
+}
+.logo img{
+  width: 100%;
+  height: 60px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.addproduct-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  gap: 2em;
+}
+.addproduct-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.product-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 20px;
+}
+
+.product-list th{
+  padding: 20px 20px;
+}
+.product-list td{
+  padding: 10px 20px;
+}
